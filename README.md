@@ -11,13 +11,19 @@ sudo ./rvm_ruby_rails_nodejs_bundle.sh
 ./cheat_code_demo.sh
 
 # Remote install
-wget https://github.com/SphinxToSETH/install_fest/archive/master.zip ; unzip master.zip ; cd install_fest-master/; sudo ./1_rvm_ruby_rails_nodejs_bundle.sh
 #
-wget https://github.com/SphinxToSETH/install_fest/archive/master.zip ; unzip master.zip ; cd install_fest-master/; ./git.sh
-#
-
-wget https://github.com/SphinxToSETH/install_fest/archive/master.zip ; unzip master.zip ; cd install_fest-master/; ./heroku.sh
+wget https://github.com/SphinxToSETH/install_fest/archive/master.zip ; unzip master.zip ; cd install_fest-master/; 
 #
 
-wget https://github.com/SphinxToSETH/install_fest/archive/master.zip ; unzip master.zip ; cd install_fest-master/; ./cheat_code_demo.sh
+wget https://raw.githubusercontent.com/SphinxToSETH/install_fest/master/1_rvm_ruby_rails_nodejs_bundle.sh ;sudo sh .1_rvm_ruby_rails_nodejs_bundle.sh
+
+wget https://raw.githubusercontent.com/SphinxToSETH/install_fest/master/2_git.sh ;sh ./2_git.sh 
+#
+wget https://raw.githubusercontent.com/SphinxToSETH/install_fest/master/3_heroku.sh ;sh ./3_heroku.sh
+
+#
+wget https://raw.githubusercontent.com/SphinxToSETH/install_fest/master/4_cheat_code_demo.sh ;sh ./4_cheat_code_demo.sh
+
+#
+
 

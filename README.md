@@ -1,5 +1,10 @@
 # Install fest automatic
 
+You need :
+
+-gitgub account
+-heroku account
+
 # Local install
 
 sudo ./rvm_ruby_rails_nodejs_bundle.sh

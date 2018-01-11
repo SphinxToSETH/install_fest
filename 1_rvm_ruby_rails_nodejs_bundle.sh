@@ -17,7 +17,7 @@ sudo apt-get -y install  curl
 
 #Files inside .gnupg should be chmod 600
 #gpg: WARNING: unsafe ownership on homedir '/home/moussaillon/.gnupg'
-
+/bin/echo -e "\e[36mError resolution >> gpg: WARNING: unsafe ownership on homedir '/home/moussaillon/.gnupg' \e[0m"
 sudo chmod 700 ~/.gnupg
 sudo chown -R $USER:$USER ~/.gnupg
 cd ~/.gnupg
@@ -31,7 +31,8 @@ sudo apt-get -y install libgdbm-dev libncurses5-dev automake libtool bison libff
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 #DL RVM
 curl -sSL https://get.rvm.io | bash -s stable
-#UPDAT SOURCE
+#UPDATE SOURCE
+/bin/echo -e "\e[36mUpdate >>  To start using RVM you need to run `source /etc/profile.d/rvm.sh`\e[0m"
 source /etc/profile.d/rvm.sh
 
 /bin/echo -e "\e[36mAjout $(echo $HOME | cut -c7-) au group rvm\e[0m"
@@ -76,6 +77,7 @@ gem update gem-wrappers
 
 #install libpq-dev
 #error >> Make sure that `gem install pg -v '0.21.0'` succeeds before bundling.
+/bin/echo -e "\e[36mError resolution >> Make sure that `gem install pg -v '0.21.0'` succeeds before bundling.\e[0m"
 sudo apt-get -y install  libpq-dev
 
 /bin/echo -e "\e[36mResolution pb : Your user account isn't allowed to install to the system RubyGems.You can cancel this installation and run:\e[0m"

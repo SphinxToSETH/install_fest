@@ -5,9 +5,9 @@
 clear
 /bin/echo -e "\e[36mIMPORTANT FAIRE LE RUN AT LOGON DANS LES PREFERENCES DU TERMINAL SINON CEST MORT !!!\e[0m"
 sleep 3
-sudo apt-get -y install  curl
 sudo rm /var/lib/dpkg/lock
 sudo apt-get -y install  curl
+
 
 /bin/echo -e "\e[36m\e[0m"
 /bin/echo -e "\e[36m=======================================\e[0m"

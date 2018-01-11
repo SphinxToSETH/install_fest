@@ -47,11 +47,12 @@ heroku --version
 sudo chown -R $(echo $HOME | cut -c7-) ~/.cache/heroku/
 
 
-#/bin/echo -e "\e[36m=========== Resolution du probleme > chmod: changing permissions of '/home/moussaillon/.netrc': Operation not permitted < ajout de droits ===\e[0m"
-sudo chmod 666 $HOME/.netrc
 
 /bin/echo -e "\e[36m=========== login sur heroku  ===\e[0m"
 heroku login
+#/bin/echo -e "\e[36m=========== Resolution du probleme > chmod: changing permissions of '/home/moussaillon/.netrc': Operation not permitted < ajout de droits ===\e[0m"
+sudo chmod 666 $HOME/.netrc
+
 /bin/echo -e "\e[36m=========== Ajout de la clef ssh dans heroku  ===\e[0m"
 
 heroku keys:add

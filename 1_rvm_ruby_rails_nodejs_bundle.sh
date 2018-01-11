@@ -75,7 +75,7 @@ gem install rails -v 5.1.4
 gem install bundler
 
 gem install gem-wrappers
-gem update gem-wrappers
+#gem update gem-wrappers
 
 #install libpq-dev
 #error >> Make sure that `gem install pg -v '0.21.0'` succeeds before bundling.

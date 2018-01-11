@@ -127,7 +127,7 @@ git push -u origin master
 
 /bin/echo -e "\e[36m\e[0m"
 /bin/echo -e "\e[36m=======================================\e[0m"
-/bin/echo -e "\e[36m=========== heroku create ===\e[0m"
+/bin/echo -e "\e[36m=========== heroku create and deploye ===\e[0m"
 /bin/echo -e "\e[36m=======================================\e[0m"
 /bin/echo -e "\e[36m\e[0m"
 

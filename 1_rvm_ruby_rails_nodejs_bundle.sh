@@ -18,7 +18,7 @@ sudo apt-get -y install  curl
 
 #Files inside .gnupg should be chmod 600
 #gpg: WARNING: unsafe ownership on homedir '/home/moussaillon/.gnupg'
-/bin/echo -e "\e[36mError resolution >> gpg: WARNING: unsafe ownership on homedir '/home/moussaillon/.gnupg' \e[0m"
+/bin/echo -e "\e[36mError resolution >> gpg: WARNING: unsafe ownership on homedir /home/moussaillon/.gnupg \e[0m"
 sudo chmod 700 ~/.gnupg
 sudo chown -R $USER:$USER ~/.gnupg
 cd ~/.gnupg

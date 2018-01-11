@@ -6,7 +6,7 @@ clear
 /bin/echo -e "\e[36mIMPORTANT FAIRE LE RUN AT LOGON DANS LES PREFERENCES DU TERMINAL SINON CEST MORT !!!\e[0m"
 sleep 3
 sudo rm /var/lib/dpkg/lock
-/bin/echo -e "\e[36mInstall de curl\e[0m"
+/bin/echo -e "\e[36mInstall curl\e[0m"
 sudo apt-get -y install  curl
 
 
@@ -31,7 +31,7 @@ sudo apt-get -y install libgdbm-dev libncurses5-dev automake libtool bison libff
 /bin/echo -e "\e[36mTelechargement de la clef pour l install de rvm\e[0m"
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 #DL RVM
-/bin/echo -e "\e[36mTelechargement de rvm\e[0m"
+/bin/echo -e "\e[36mTelechargement et install de rvm\e[0m"
 curl -sSL https://get.rvm.io | bash -s stable
 #UPDATE SOURCE
 /bin/echo -e "\e[36mUpdate >>  To start using RVM you need to run `source /etc/profile.d/rvm.sh`\e[0m"

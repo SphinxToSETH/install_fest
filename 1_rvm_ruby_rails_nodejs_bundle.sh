@@ -37,7 +37,7 @@ curl -sSL https://get.rvm.io | bash -s stable
 /bin/echo -e "\e[36mUpdate >>  To start using RVM you need to run `source /etc/profile.d/rvm.sh`\e[0m"
 source /etc/profile.d/rvm.sh
 
-/bin/echo -e "\e[36mAjout $(echo $HOME | cut -c7-) au group rvm\e[0m"
+/bin/echo -e "\e[36mAjout rvm au groupe $(echo $HOME | cut -c7-)\e[0m"
 /bin/echo -e '\nsource /etc/profile.d/rvm.sh'  >> ~/.bashrc
 source /etc/profile.d/rvm.sh
 sudo usermod -a -G rvm $(echo $HOME | cut -c7-)

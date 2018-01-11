@@ -15,7 +15,7 @@ sudo ./rvm_ruby_rails_nodejs_bundle.sh
 wget https://github.com/SphinxToSETH/install_fest/archive/master.zip ; unzip master.zip ; cd install_fest-master/; 
 #
 
-wget https://raw.githubusercontent.com/SphinxToSETH/install_fest/master/1_rvm_ruby_rails_nodejs_bundle.sh ;sudo sh   bash ./1_rvm_ruby_rails_nodejs_bundle.sh
+wget https://raw.githubusercontent.com/SphinxToSETH/install_fest/master/1_rvm_ruby_rails_nodejs_bundle.sh ;sudo sh ./1_rvm_ruby_rails_nodejs_bundle.sh
 
 wget https://raw.githubusercontent.com/SphinxToSETH/install_fest/master/2_git.sh ;sh ./2_git.sh 
 #

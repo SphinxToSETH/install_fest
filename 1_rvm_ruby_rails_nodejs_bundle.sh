@@ -12,7 +12,7 @@ sudo apt-get -y install  curl
 
 /bin/echo -e "\e[36m\e[0m"
 /bin/echo -e "\e[36m=======================================\e[0m"
-/bin/echo -e "\e[36m=========== Install de RVM ============\e[0m"
+/bin/echo -e "\e[36m=========== RVM ============\e[0m"
 /bin/echo -e "\e[36m=======================================\e[0m"
 /bin/echo -e "\e[36m\e[0m"
 
@@ -45,7 +45,7 @@ sudo usermod -a -G rvm $(echo $HOME | cut -c7-)
 
 /bin/echo -e  "\e[36m\e[0m"
 /bin/echo -e  "\e[36m=======================================\e[0m"
-/bin/echo -e  "\e[36m======== Install de Ruby       ========\e[0m"
+/bin/echo -e  "\e[36m======== Ruby       ========\e[0m"
 /bin/echo -e  "\e[36m=======================================\e[0m"
 /bin/echo -e  "\e[36m\e[0m"
 #INSTALL RUBY
@@ -57,7 +57,7 @@ rvm use 2.5.0 --default
 
 /bin/echo -e "\e[36m\e[0m"
 /bin/echo -e "\e[36m=======================================\e[0m"
-/bin/echo -e "\e[36m======= Install de NodeJS & Rails &  Bundler  =======\e[0m"
+/bin/echo -e "\e[36m======= NodeJS & Rails &  Bundler  =======\e[0m"
 /bin/echo -e "\e[36m=======================================\e[0m"
 /bin/echo -e "\e[36m\e[0m"
 

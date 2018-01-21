@@ -1,10 +1,9 @@
 # Automatic Install fest for Ruby and Rails Dev
 
 You need :
-
--gitgub account
+- github account
 #
--heroku account
+- heroku account
 
 # Local install
 

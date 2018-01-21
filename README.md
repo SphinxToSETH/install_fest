@@ -1,4 +1,4 @@
-# Install fest automatic
+# Automatic Install fest for Ruby and Rails Dev
 
 You need :
 

@@ -9,15 +9,15 @@ You need :
 
 sudo ./rvm_ruby_rails_nodejs_bundle.sh
 #
-./git.sh
+     ./git.sh
 #
-./heroku.sh
+    ./heroku.sh
 #
-./cheat_code_demo.sh
+    ./cheat_code_demo.sh
 
 # Remote install
 #
-wget https://github.com/SphinxToSETH/install_fest/archive/master.zip ; unzip master.zip ; cd install_fest-master/; 
+    wget https://github.com/SphinxToSETH/install_fest/archive/master.zip ; unzip master.zip ; cd install_fest-master/; 
 #
 
 wget https://raw.githubusercontent.com/SphinxToSETH/install_fest/master/1_rvm_ruby_rails_nodejs_bundle.sh ;sudo sh ./1_rvm_ruby_rails_nodejs_bundle.sh

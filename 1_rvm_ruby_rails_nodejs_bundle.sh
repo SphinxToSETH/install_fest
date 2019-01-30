@@ -18,7 +18,7 @@ sudo apt-get -y install  curl
 
 #Files inside .gnupg should be chmod 600
 #gpg: WARNING: unsafe ownership on homedir '/home/moussaillon/.gnupg'
-/bin/echo -e "\e[36mError resolution >> gpg: WARNING: unsafe ownership on homedir /home/moussaillon/.gnupg \e[0m"
+/bin/echo -e "\e[36mError resolution >> gpg: WARNING: unsafe ownership on homedir /home/$USER/.gnupg \e[0m"
 sudo chmod 700 ~/.gnupg
 sudo chown -R $USER:$USER ~/.gnupg
 cd ~/.gnupg
@@ -29,7 +29,8 @@ sudo chmod 600 *
 sudo apt-get -y install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
 #DL KEY
 /bin/echo -e "\e[36mTelechargement de la clef pour l install de rvm\e[0m"
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+#gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 #DL RVM
 /bin/echo -e "\e[36mTelechargement et install de rvm\e[0m"
 curl -sSL https://get.rvm.io | bash -s stable
